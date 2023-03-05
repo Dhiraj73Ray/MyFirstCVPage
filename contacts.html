@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+</head>
+<body>
+    <h1>My Contacts</h1>
+    <ul>
+        <li><a href="mailto:raydj987abc@gmail.com"><em>Contact me through Email</em></a></li>
+        <li><a href="https://www.linkedin.com/in/dhiraj-ray-588670229/"  target="_blank">My LinkedIn Profile</a></li>
+        <li><a href="https://www.instagram.com/dhiraj_ray999/?next=%2F" target="_blank">My Insta_ID</a></li>
+    </ul>
+<hr>
+
+<form action="mailto:raydj987abc@gmail.com" method="post" enctype="text/plain">
+    <label> <strong>Your Name:</strong> </label>
+    <input type="text" name="My Name"maxlength="25" minlength="3"><br>
+    <label for=""><strong>Your Email:</strong> </label>
+    <input type="email" name="My Email" id="email" pattern="^(([^<>()[\]\\.,;:\s@]+(\.[^<>()[\]\\.,;:\s@]+)*)|(.+))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$"><br>
+    <label for=""><strong>Your Message:</strong></label><br>
+    <textarea name="My Message" id="text" cols="30" rows="10"></textarea><br>
+    <input type="submit" value="Submit">
+</form>
+<a href="index.html">Home</a>
+</body>
+</html>
